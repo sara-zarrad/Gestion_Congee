@@ -68,6 +68,9 @@ public class DemandeConge {
         this.id = id;
     }
 
+    @JsonIgnore
+
+
     public Entreprise getEntreprise() {
         return entreprise;
     }
@@ -75,6 +78,9 @@ public class DemandeConge {
     public void setEntreprise(Entreprise entreprise) {
         this.entreprise = entreprise;
     }
+
+    @JsonIgnore
+
 
     public Utilisateur getUtilisateur() {
         return utilisateur;
@@ -159,6 +165,9 @@ public class DemandeConge {
     public void setCommentaireDecision(String commentaireDecision) {
         this.commentaireDecision = commentaireDecision;
     }
+
+    @JsonIgnore
+
 
     public Utilisateur getValideur() {
         return valideur;
